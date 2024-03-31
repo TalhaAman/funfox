@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Short+Stack&display=swap");
+:root {
+  --pink: #f8d1e0;
+  --very-light-pink: #f8ebfd;
+  --peach: #fe6784;
+  --dark-gray: #b6b6b6;
+  --text-dark: #1e242f;
+  --green-bg: #25a3a1;
+  --gray: #cccccc;
+
+  --light-peach: rgb(249, 198, 188);
+  --very-light-peach: rgb(254, 239, 234);
+  --black: #000000;
+  --black-russian: #000000aa;
+  --white: #ffffff;
+  --gray44: #707070;
+  --light-gray: #c6c6c6;
+  --shuttle-gray: #5c626a;
+  --dark-grayish: #a29a9a;
+  --blue: #037ca0;
+  --red: #ff0000;
+  --green: #76b52c;
+  --orange: #f5a31f;
+  --bright-gray: #efedf4;
+  --very-dark-gray: #4c4a4a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Short Stack", cursive;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--pink);
+  color: var(--text-dark);
+  position: relative;
+}
+
+p {
+  margin-bottom: 0;
+  word-wrap: break-word !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-weight: 400 !important;
+}
+h1 {
+  font-size: 22px;
+}
+h2 {
+  font-size: 18px;
+}
+h3 {
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.link,
+.link:focus,
+.link:visited,
+.link:hover,
+.link:active {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+body::-webkit-scrollbar {
+  /* width: 9px; */
+  display: none;
+}
+
+/* body::-webkit-scrollbar-track {
+  background: var(--light-gray);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--pink);
+} */
+button[disabled],
+button:disabled {
+  background-color: var(--gray);
+  color: var(--white);
+}

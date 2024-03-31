@@ -1,0 +1,110 @@
+.left-bg-design {
+  position: absolute;
+  width: 100px;
+  height: 85vh;
+  top: 80px;
+  left: -20px;
+  z-index: 1;
+}
+.right-bg-design {
+  position: absolute;
+  width: 100px;
+  height: 90vh;
+  top: 20px;
+  right: 0px;
+  z-index: 1;
+}
+.funfox {
+  background-color: var(--pink);
+  position: relative;
+  min-height: 100vh;
+  animation: slideAnimation 0.5s ease-out forwards;
+}
+
+@keyframes slideAnimation {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0;
+  }
+}
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+}
+.week-heading {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  margin: 0 150px;
+}
+.content-wrapper {
+  background: #f7f9fe;
+  position: relative;
+  padding: 20px;
+  margin: 0 65px;
+  border-radius: 10px;
+  min-height: 75vh;
+  z-index: 3;
+}
+.pencil-icon {
+  position: absolute;
+  top: 7%;
+  left: -65px;
+  z-index: 2;
+}
+.bag-icon {
+  position: absolute;
+  top: 45%;
+  left: -65px;
+  z-index: 2;
+}
+.open-book-icon {
+  position: absolute;
+  top: 88%;
+  left: -65px;
+  z-index: 2;
+}
+.scale-icon {
+  position: absolute;
+  top: 5%;
+  right: -65px;
+  z-index: 2;
+}
+.book-icon {
+  position: absolute;
+  top: 45%;
+  right: -65px;
+  z-index: 2;
+}
+.hat-icon {
+  position: absolute;
+  top: 83%;
+  right: -65px;
+  z-index: 2;
+}
+.lower-nav {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 65px;
+}
+.navigation-btns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.pagination {
+  position: relative;
+}
+.pagination h3 {
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  z-index: 9;
+  color: var(--white);
+}
